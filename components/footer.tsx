@@ -87,7 +87,7 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Get in Touch</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
-              <li>hello@jalexmedia.com</li>
+              <li>hello@jalexmedia.poop</li>
               <li>0493 474 479</li>
               <li>Remote-First Agency</li>
             </ul>
