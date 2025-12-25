@@ -11,7 +11,12 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <div className="flex items-center gap-1 mb-4">
+            <div className="flex items-center gap-2 mb-4">
+              <img 
+                src="/logo.png" 
+                alt="Jalex Media Logo" 
+                className="h-8 w-8 object-contain"
+              />
               <span className="text-2xl font-bold text-foreground">Jalex</span>
               <span className="text-2xl font-bold text-primary">Media</span>
             </div>
@@ -87,7 +92,7 @@ export function Footer() {
               href="#contact"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              className="inline-block mt-6 bg-primary text-primary-foreground font-semibold py-3 px-6 rounded-full text-sm hover:shadow-[0_0_20px_rgba(231,138,83,0.3)] transition-shadow"
+              className="inline-block mt-6 bg-primary text-primary-foreground font-semibold py-3 px-6 rounded-full text-sm hover:shadow-[0_0_20px_rgba(59,130,246,0.3)] transition-shadow"
             >
               Free Strategy Call
             </motion.a>
