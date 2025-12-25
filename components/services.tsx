@@ -95,8 +95,8 @@ export default function Services() {
               transition={{ duration: 0.5, delay: 0.1 * index }}
               whileHover={{
                 scale: 1.02,
-                borderColor: "rgba(231, 138, 83, 0.5)",
-                boxShadow: "0 0 30px rgba(231, 138, 83, 0.15)",
+                borderColor: "rgba(59, 130, 246, 0.5)",
+                boxShadow: "0 0 30px rgba(59, 130, 246, 0.15)",
               }}
               className={`group relative rounded-2xl border-2 border-border/50 bg-card/50 backdrop-blur-sm p-8 transition-all duration-300 ${
                 index === 4 ? "md:col-span-2 lg:col-span-1" : ""
