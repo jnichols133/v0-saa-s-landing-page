@@ -31,7 +31,9 @@ export function Footer() {
             </p>
             <div className="flex items-center gap-4">
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61585544582311"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-border/50 flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-primary/50 transition-colors"
                 aria-label="Facebook"
               >
@@ -40,7 +42,9 @@ export function Footer() {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/jalexmedia/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-border/50 flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-primary/50 transition-colors"
                 aria-label="Instagram"
               >
@@ -89,9 +93,11 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Get in Touch</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
-              
-              <li>0493 474 479</li>
-              
+              <li>
+                <a href="tel:+61493474479" className="hover:text-primary transition-colors">
+                  0493 474 479
+                </a>
+              </li>
             </ul>
             <motion.a
               href="#contact"

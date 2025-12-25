@@ -245,7 +245,7 @@ export default function Home() {
                   }}
                   className="w-full px-4 py-3 text-lg font-bold text-center bg-primary text-primary-foreground rounded-full hover:scale-105 transition-all duration-200"
                 >
-                  Get Started Now               </button>
+                  Contact Us Now               </button>
               </div>
             </nav>
           </div>

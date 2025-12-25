@@ -80,7 +80,7 @@ export default function Hero() {
                   className="group relative overflow-hidden rounded-xl bg-primary px-8 py-4 text-base font-semibold text-primary-foreground transition-all duration-200 hover:bg-primary/90 shadow-lg hover:shadow-xl"
                 >
                   <span className="relative z-10 flex items-center gap-2">
-                    Get Started Now
+                    Contact Us Now
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="20"

@@ -104,7 +104,9 @@ export function ContactSection() {
               </div>
               <div className="flex items-center gap-3 text-muted-foreground">
                 <Phone className="w-5 h-5 text-primary" />
-                <span>0493 474 479</span>
+                <a href="tel:+61493474479" className="hover:text-primary transition-colors">
+                  0493 474 479
+                </a>
               </div>
               <div className="flex items-center gap-3 text-muted-foreground">
                 <MapPin className="w-5 h-5 text-primary" />
@@ -171,16 +173,17 @@ export function ContactSection() {
                 <div className="grid sm:grid-cols-2 gap-6">
                   <div>
                     <label htmlFor="phone" className="block text-sm font-medium mb-2">
-                      Phone
+                      Phone *
                     </label>
                     <input
                       type="tel"
                       id="phone"
                       name="phone"
+                      required
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 rounded-xl border border-border/50 bg-background/50 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
-                      placeholder=""
+                      placeholder="0412 345 678"
                     />
                   </div>
                   <div>
@@ -231,7 +234,7 @@ export function ContactSection() {
                     </>
                   ) : (
                     <>
-                      Request My Strategy Session
+                      Send Message
                       <Send className="w-5 h-5" />
                     </>
                   )}
