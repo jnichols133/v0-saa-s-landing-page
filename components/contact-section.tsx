@@ -99,8 +99,8 @@ export function ContactSection() {
             <div className="space-y-4">
               <h3 className="text-2xl font-semibold mb-6">Contact Info</h3>
               <div className="flex items-center gap-3 text-muted-foreground">
-                <Mail className="w-5 h-5 text-primary" />
-                <span>hello@jalexmedia.com</span>
+                
+                
               </div>
               <div className="flex items-center gap-3 text-muted-foreground">
                 <Phone className="w-5 h-5 text-primary" />
@@ -200,33 +200,8 @@ export function ContactSection() {
                 </div>
 
                 <div>
-                  <label htmlFor="service" className="block text-sm font-medium mb-2">
-                    Service Interested In *
-                  </label>
-                  <select
-                    id="service"
-                    name="service"
-                    required
-                    value={formData.service}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-xl border border-border/50 bg-background/50 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all appearance-none cursor-pointer hover:border-primary/50"
-                    style={{
-                      backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23888' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E")`,
-                      backgroundRepeat: "no-repeat",
-                      backgroundPosition: "right 0.75rem center",
-                      backgroundSize: "1.25rem",
-                    }}
-                  >
-                    <option value="" disabled>
-                      Select a service
-                    </option>
-                    <option value="meta-ads">Meta Ads (Facebook & Instagram)</option>
-                    <option value="google-ads">Google Ads</option>
-                    <option value="seo">SEO - Search Engine Optimization</option>
-                    <option value="web-design">Web Design & Development</option>
-                    <option value="content">Content Creation</option>
-                    <option value="full-service">Full Service Marketing Package</option>
-                  </select>
+                  
+                  
                 </div>
 
                 <div>

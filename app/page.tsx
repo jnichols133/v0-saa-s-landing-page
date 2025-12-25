@@ -157,7 +157,7 @@ export default function Home() {
             onClick={scrollToContact}
             className="rounded-full font-semibold relative cursor-pointer hover:scale-105 transition duration-200 inline-block text-center bg-primary text-primary-foreground px-6 py-2.5 text-sm"
           >
-            Get Free Audit
+            Free Stratergy Call
           </button>
         </div>
       </header>

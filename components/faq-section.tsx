@@ -15,7 +15,7 @@ export function FAQSection() {
     {
       question: "How quickly can I expect to see results?",
       answer:
-        "For paid advertising (Meta Ads, Google Ads), you can start seeing results within the first 2-4 weeks as we optimize campaigns. SEO is a longer-term investment, typically showing significant results within 3-6 months. We provide regular reports so you can track progress from day one.",
+        "For paid advertising (Meta Ads, Google Ads), you can start seeing results within the first 2-4 weeks as we optimise campaigns. SEO is a longer-term investment, typically showing significant results within 1-3 months. We provide regular reports so you can track progress from day one.",
     },
     {
       question: "Do you require long-term contracts?",
@@ -25,17 +25,17 @@ export function FAQSection() {
     {
       question: "What makes Jalex Media different from other agencies?",
       answer:
-        "We're laser-focused on ROI. We don't just create pretty ads or chase vanity metrics—we build campaigns designed to generate revenue. Every decision we make is backed by data, and we treat your budget like it's our own money.",
+        "We're laser-focused on ROI. We don't just create pretty ads or chase vanity metrics. We build campaigns designed to generate revenue. Every decision we make is backed by data, and we treat your budget like it's our own money.",
     },
     {
       question: "How much do your services cost?",
       answer:
-        "Our pricing varies based on your specific needs and goals. We offer customized packages to ensure you're only paying for what you need. Book a free strategy call and we'll provide a detailed quote based on your situation.",
+        "Our pricing varies based on your specific needs and goals. We offer customised packages to ensure you're only paying for what you need. Book a free strategy call and we'll provide a detailed quote based on your situation.",
     },
     {
       question: "Do you work with businesses in my industry?",
       answer:
-        "We work with businesses across various industries including e-commerce, local services, SaaS, professional services, and more. Our strategies are adaptable and we take time to understand your specific market and audience.",
+        "We work with businesses across various industries including tradies, e-commerce, local services, SaaS, professional services, and more. Our strategies are adaptable and we take time to understand your specific market and audience.",
     },
   ]
 
