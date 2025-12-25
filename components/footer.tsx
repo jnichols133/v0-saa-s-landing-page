@@ -15,7 +15,12 @@ export function Footer() {
               <img 
                 src="/logo.png" 
                 alt="Jalex Media Logo" 
-                className="h-8 w-8 object-contain"
+                width={24}
+                height={24}
+                className="h-6 w-6 object-contain"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none'
+                }}
               />
               <span className="text-2xl font-bold text-foreground">Jalex</span>
               <span className="text-2xl font-bold text-primary">Media</span>

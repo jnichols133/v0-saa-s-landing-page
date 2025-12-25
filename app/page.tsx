@@ -88,7 +88,12 @@ export default function Home() {
           <img 
             src="/logo.png" 
             alt="Jalex Media Logo" 
-            className="h-8 w-8 object-contain"
+            width={20}
+            height={20}
+            className="h-5 w-5 object-contain"
+            onError={(e) => {
+              e.currentTarget.style.display = 'none'
+            }}
           />
           <span className="text-xl font-bold text-foreground">Jalex</span>
           <span className="text-xl font-bold text-primary">Media</span>
@@ -173,7 +178,12 @@ export default function Home() {
           <img 
             src="/logo.png" 
             alt="Jalex Media Logo" 
-            className="h-6 w-6 object-contain"
+            width={18}
+            height={18}
+            className="h-[18px] w-[18px] object-contain"
+            onError={(e) => {
+              e.currentTarget.style.display = 'none'
+            }}
           />
           <span className="text-lg font-bold text-foreground">Jalex</span>
           <span className="text-lg font-bold text-primary">Media</span>
